@@ -1,0 +1,16 @@
+<!-- Exclude keyword will run all the @Test except the ones with "Regression" froup -->
+
+<suite name="Test Suite">
+
+    <groups>
+        <run>
+            <exclude name="Regression"></exclude>
+        </run>
+    </groups>
+
+    <test name="Test">
+        <classes>
+            <class name="TestNG.C_XML._04_SecondGroupClass"></class>
+        </classes>
+    </test>
+</suite>

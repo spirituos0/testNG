@@ -1,0 +1,17 @@
+<suite name="Test Suite SmokeTest">
+
+    <groups>
+        <run>
+            <include name="SmokeTest"></include>
+            <!-- If you put <groups> inside <test>, it will affect only that specific test -->
+        </run>
+    </groups>
+
+    <test name="SmokeTest">
+        <classes>
+            <class name="TestNG.C_XML._03_Groups"></class>
+            <class name="TestNG.C_XML._04_SecondGroupClass"></class>
+        </classes>
+    </test>
+
+</suite>
