@@ -1,0 +1,9 @@
+<suite name="Test Suite">
+    <!-- @BeforeTest annotation will get executed here -->
+    <test name="Test1">
+        <classes>
+            <class name="TestNG.C_XML._01_TestNG_XMLAnnotations"></class>
+        </classes>
+    </test>
+    <!-- @AfterTest annotation will get executed here -->
+</suite>

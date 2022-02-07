@@ -1,0 +1,11 @@
+<!-- @BeforeSuite -->
+<suite name="Test Suite">
+    <!-- @BeforeTest -->
+    <test name="Test">
+        <classes>
+            <class name="TestNG.C_XML._02_TestNG_Annotations"></class>
+        </classes>
+    </test>
+    <!-- @AfterTest -->
+</suite>
+<!-- @AfterSuite -->

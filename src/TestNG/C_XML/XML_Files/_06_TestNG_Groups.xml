@@ -1,0 +1,14 @@
+<suite name="Regression test Suite">
+
+    <groups>
+        <run>
+            <include name="Regression"></include>
+        </run>
+    </groups>
+
+    <test name="Regression Test Run">
+        <classes>
+            <class name="TestNG.C_XML._03_Groups"></class>
+        </classes>
+    </test>
+</suite>
