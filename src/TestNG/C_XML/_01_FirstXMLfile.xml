@@ -1,0 +1,23 @@
+
+<!-- Running Multiple classes at the same time -->
+<!-- Parametrize Testing -->
+<!-- Parallel Testing (Open multiple browsers at the same time - reduces execution time) -->
+<!-- Cross Browser Testing (testing the same scenario for different browsers) -->
+
+<!-- Helps us to group test like Regression, Smoke etc. -->
+
+<!-- 1 xml can only have 1 test suite (<suite>) -->
+<!-- 1 Test Suite can have more than 1 test tag (<test>) -->
+
+<!-- .xml file is coming from testNG -->
+<!-- .xml file cannot run main() methods, it always looks for @Test -->
+
+
+<suite name = "First Test Suite">
+    <test name = "First Test">
+        <classes>
+            <class name = "TestNG.B_Assertion._3_Buttons_Task1"></class>
+        </classes>
+    </test>
+
+</suite>

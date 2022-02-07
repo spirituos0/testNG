@@ -1,0 +1,8 @@
+<suite name="Test Suite for multiple classes">
+    <test name="Test">
+        <classes>
+            <class name="TestNG.A_Intro._01_TestAnnotation"></class>
+            <class name="TestNG.A_Intro._02_BeforeAfterMethod"></class>
+        </classes>
+    </test>
+</suite>
